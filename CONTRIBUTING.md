@@ -5,7 +5,6 @@ This document goes over how you (and/or your organization) are expected to contr
 We use Crowdin to handle translations into many languages, and you can join the [StreamFX project on Crowdin](https://crowdin.com/project/obs-stream-effects) if you are interested in improving the translations to your native tongue. As Crowdin handles all other languages, Pull Requests therefore should only include changes to `en-US.ini`.
 
 ## Commit Guidelines
-Commits should focus on a single change such as formatting, fixing a bug, a warning across the code, and similar things. This means that you should not include a fix to color format handling in a commit that implements a new encoder, or include a fix to a bug with a fix to a warning.
 
 ### Linear History
 This project prefers the linear history of `git rebase` and forbids merge commits. This allows all branches to be a single line back to the root, unless viewed as a whole where it becomes a tree. If you are working on a branch for a feature, bug or other thing, you should know how to rebase back onto the main branch before making a pull request.
@@ -251,4 +250,3 @@ All class members must be `private` and only accessible through get-/setters. Th
 
 ## Building
 Please read [the guide on the wiki](https://github.com/Xaymar/obs-StreamFX/wiki/Building) for building the project.
-
